@@ -1,0 +1,90 @@
+.page-score {
+    display: grid; 
+    grid-template-columns: auto;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-score-main {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 30px;
+
+}
+
+.page-score-header {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(196, 196, 196, 0.50);
+    margin-top: 50px;
+    height: 100%;
+    width: 1000px;
+}
+
+.page-score-header button {
+    background-color: rgba(196, 196, 196, 0.75);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    transition: all 0.5s;
+}
+.page-score-header button:hover {
+    background-color: rgba(155, 155, 155, 0.75);
+}
+
+.score-main-results {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: rgba(196, 196, 196, 0.50);
+    justify-content: center;
+    gap: 10px;
+    padding: 15px 0;
+}
+
+.score-main-results-scores {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 15px;
+}
+
+.score-main-results-scores-each {
+    display: grid;
+    grid-template-columns: auto;
+    background: rgba(196, 196, 196, 0.75);
+    padding-bottom: 10px;
+}
+
+.results-each-section-title {
+    display: grid;
+    padding: 10px 70px;
+    
+    grid-template-columns: auto auto auto;
+    border-radius: 4px;
+    gap: 15px;
+}
+
+.results-each-section-number {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+}
+
+.results-each-section-country {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+}
+
+.results-each-section-history {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 5px;
+}
+
+.results-each-section-country-history {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
