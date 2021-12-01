@@ -1,3 +1,5 @@
+button { transition: all 0.5s;}
+
 .page-score {
     display: grid; 
     grid-template-columns: auto;
@@ -87,4 +89,76 @@
 .results-each-section-country-history {
     display: grid;
     grid-template-columns: auto auto auto;
+}
+
+.score-main-matches {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgba(196, 196, 196, 0.50);
+    justify-content: center;
+    gap: 50px;
+    padding: 15px 0;
+}
+
+.score-main-matches-each {
+    display: grid;
+    background: linear-gradient(180deg, rgba(196, 196, 196, 0.7) 0%, rgba(123, 120, 120, 0) 100%);
+    border: 1px solid #C5C0C0;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 300px;
+    height: 200px;
+    padding-top: 10px;
+    gap: 0px;
+}
+
+.score-main-matches-each-button {
+    width: 70px;
+    height: 25px;
+    background: #C4C4C4;
+    border: 1px solid #988E8E;
+    box-sizing: border-box;
+    justify-self: center;
+    text-align: center;
+}
+
+.score-main-matches-each-button:hover {
+    background-color: #b1b1b1;
+    border: 1px solid #988E8E;
+    box-sizing: border-box;
+}
+
+.score-main-matches-each-title {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-content: space-between;
+}
+.score-main-matches-each-info {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.score-main-matches-each-time {
+    display: grid;
+    grid-template-columns: auto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 11px;
+}
+.score-main-matches-each-functionality {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.score-main-matches-each-functionality button {
+    width: 70px;
+    height: 25px;
+    background: #C4C4C4;
+    border: 1px solid #988E8E;
+}
+
+.score-main-matches-each-functionality button:hover {
+    background: #9e9e9e;
 }

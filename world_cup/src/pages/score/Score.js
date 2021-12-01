@@ -4,6 +4,8 @@ import { Navigate } from 'react-router-dom';
 
 
 export default function Score() {
+    
+
     return (
         <div className="page-score">
             <header className="page-score-header">
@@ -41,7 +43,63 @@ export default function Score() {
                         </div>
                     </div>
                 </div>
-                <div className="score-main-matches">Matches</div>
+                <div className="score-main-matches">
+                    <div className="score-main-matches-each">
+                        <div><button className="score-main-matches-each-button">Start</button></div>
+                        <div className="score-main-matches-each-time"><div>Time</div><div>13:54</div></div>
+                        <div className="score-main-matches-each-title"><div>Home</div><div>Away</div></div>
+                        <div className="score-main-matches-each-info"><div>Norway</div><div>0</div><div>0</div><div>Sweden</div></div>
+                        <div className="score-main-matches-each-functionality">
+                            <button>+1 Home</button>
+                            <button>+1 Away</button>
+                        </div>
+                        <div><button className="score-main-matches-each-button">End</button></div>
+                    </div>
+                    <div className="score-main-matches-each">
+                        <div><button className="score-main-matches-each-button">Start</button></div>
+                        <div className="score-main-matches-each-time"><div>Time</div><div>13:54</div></div>
+                        <div className="score-main-matches-each-title"><div>Home</div><div>Away</div></div>
+                        <div className="score-main-matches-each-info"><div>Norway</div><div>0</div><div>0</div><div>Sweden</div></div>
+                        <div className="score-main-matches-each-functionality">
+                            <button>+1 Home</button>
+                            <button>+1 Away</button>
+                        </div>
+                        <div><button className="score-main-matches-each-button">End</button></div>
+                    </div>
+                    <div className="score-main-matches-each">
+                        <div><button className="score-main-matches-each-button">Start</button></div>
+                        <div className="score-main-matches-each-time"><div>Time</div><div>13:54</div></div>
+                        <div className="score-main-matches-each-title"><div>Home</div><div>Away</div></div>
+                        <div className="score-main-matches-each-info"><div>Norway</div><div>0</div><div>0</div><div>Sweden</div></div>
+                        <div className="score-main-matches-each-functionality">
+                            <button>+1 Home</button>
+                            <button>+1 Away</button>
+                        </div>
+                        <div><button className="score-main-matches-each-button">End</button></div>
+                    </div>
+                    <div className="score-main-matches-each">
+                        <div><button className="score-main-matches-each-button">Start</button></div>
+                        <div className="score-main-matches-each-time"><div>Time</div><div>13:54</div></div>
+                        <div className="score-main-matches-each-title"><div>Home</div><div>Away</div></div>
+                        <div className="score-main-matches-each-info"><div>Norway</div><div>0</div><div>0</div><div>Sweden</div></div>
+                        <div className="score-main-matches-each-functionality">
+                            <button>+1 Home</button>
+                            <button>+1 Away</button>
+                        </div>
+                        <div><button className="score-main-matches-each-button">End</button></div>
+                    </div>
+                    <div className="score-main-matches-each">
+                        <div><button className="score-main-matches-each-button">Start</button></div>
+                        <div className="score-main-matches-each-time"><div>Time</div><div>13:54</div></div>
+                        <div className="score-main-matches-each-title"><div>Home</div><div>Away</div></div>
+                        <div className="score-main-matches-each-info"><div>Norway</div><div>0</div><div>0</div><div>Sweden</div></div>
+                        <div className="score-main-matches-each-functionality">
+                            <button>+1 Home</button>
+                            <button>+1 Away</button>
+                        </div>
+                        <div><button className="score-main-matches-each-button">End</button></div>
+                    </div>
+                </div>
             </div>
         </div>
     )
