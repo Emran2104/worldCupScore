@@ -1,10 +1,16 @@
 import './App.css';
+import { BrowserRouter as Router, Route , Routes} from 'react-router-dom';
+import Score from './pages/score/Score';
+import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-      Hei
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Score />}/>
+      </Routes>
+    </Router>
+    
   );
 }
 
