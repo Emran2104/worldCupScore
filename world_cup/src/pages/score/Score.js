@@ -40,6 +40,8 @@ export default function Score() {
     }, [countries])
     
     // I anticipated that the matches objects will come from an api, but I still made it possible to add matches on the website.
+	// Could also make a seperate function for setting matches (setMatches) since we are using it multiple times.
+	// We only use it twice for this project, and therefore left it like it is.
     function addCountries(event) {
 		event.preventDefault();
         setMatches([...matches,
@@ -57,7 +59,7 @@ export default function Score() {
     }
 
   // I made all the functionality in one function to make it easier to understand,
-  // however, it would be better option
+  // however, it would be better option to make seperate function for sorting and removing from state array.
   function endOrStartMatch(index, startOrFinish) {
     let allMatches = [...matches]; // copying all matches not yet finished
     // if start button is clicked, we change the state "started" on given index from parameter
